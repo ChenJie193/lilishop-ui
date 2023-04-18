@@ -1,6 +1,6 @@
 const config = {
   closable: true, // 是否显示右上角关闭按钮
-  mask: true, // 是否显示遮罩层
+  mask: false, // 是否显示遮罩层
 
   menuList: [{
     icon: 'md-person', // menu的icon

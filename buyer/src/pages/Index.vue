@@ -26,7 +26,7 @@
     <!-- 固定头部 -->
     <hover-search class="hover-search" :class="{show: topSearchShow}"></hover-search>
     <!-- 顶部广告 -->
-    <FixedTopPage :data="topAdvert"></FixedTopPage>
+    <!-- <FixedTopPage :data="topAdvert"></FixedTopPage> -->
     <!-- 头部 包括登录，我的订单等 -->
     <BaseHeader></BaseHeader>
     <!-- 搜索框、logo -->
@@ -69,7 +69,7 @@ export default {
       autoCoupList:[],
       showCpmodel:false,
       modelForm: { list: [] }, // 楼层装修数据
-      topAdvert: {}, // 顶部广告
+      // topAdvert: {}, // 顶部广告
       showNav: false, // 是否展示分类栏
       topSearchShow: false, // 滚动后顶部搜索栏展示
       carouselLarge: false, // 不同轮播分类尺寸
