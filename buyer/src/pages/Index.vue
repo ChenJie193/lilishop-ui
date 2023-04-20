@@ -26,7 +26,7 @@
     <!-- 固定头部 -->
     <hover-search class="hover-search" :class="{show: topSearchShow}"></hover-search>
     <!-- 顶部广告 -->
-    <FixedTopPage :data="topAdvert"></FixedTopPage>
+    <!-- <FixedTopPage :data="topAdvert"></FixedTopPage> -->
     <!-- 头部 包括登录，我的订单等 -->
     <BaseHeader></BaseHeader>
     <!-- 搜索框、logo -->
@@ -36,7 +36,7 @@
     <!-- 楼层装修部分 -->
     <model-form ref="modelForm" :data="modelForm"></model-form>
     <!-- 底部栏 -->
-    <BaseFooter></BaseFooter>
+    <!-- <BaseFooter></BaseFooter> -->
   </div>
 </template>
 

@@ -376,7 +376,7 @@ export const modelData = [{
     icon: 'md-image',
     options: {
       contentLeft: {
-        title: '发现好货',
+        title: '发现好货111',
         secondTitle: '更多好货',
         bgColor: '#449dae',
         url: '',

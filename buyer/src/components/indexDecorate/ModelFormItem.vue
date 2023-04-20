@@ -46,7 +46,7 @@
       <seckill :data="element" class="mb_20 width_1200_auto"></seckill>
     </template>
     <!-- 折扣广告 -->
-    <template v-if="element.type == 'discountAdvert'">
+    <!-- <template v-if="element.type == 'discountAdvert'">
       <div
         class="discountAdvert"
         :style="{
@@ -75,28 +75,28 @@
           alt=""
         />
       </div>
-    </template>
+    </template> -->
 
     <!-- 好货推荐 -->
     <template v-if="element.type == 'recommend'">
       <recommend :data="element" class="mb_20 width_1200_auto"></recommend>
     </template>
     <!-- 新品排行 -->
-    <template v-if="element.type == 'newGoodsSort'">
+    <!-- <template v-if="element.type == 'newGoodsSort'">
       <new-goods-sort
         :data="element"
         class="mb_20 width_1200_auto"
       ></new-goods-sort>
-    </template>
+    </template> -->
     <!-- 首页广告 -->
-    <template v-if="element.type == 'firstAdvert'">
+    <!-- <template v-if="element.type == 'firstAdvert'">
       <first-page-advert
         :data="element"
         class="mb_20 width_1200_auto"
       ></first-page-advert>
-    </template>
+    </template> -->
     <!-- 横幅广告 -->
-    <template v-if="element.type == 'bannerAdvert'">
+    <!-- <template v-if="element.type == 'bannerAdvert'">
       <div style="width: 100%; text-align: center">
         <img
           width="1200"
@@ -106,14 +106,14 @@
           alt=""
         />
       </div>
-    </template>
-    <template v-if="element.type == 'notEnough'"
+    </template> -->
+    <!-- <template v-if="element.type == 'notEnough'"
         >
       <not-enough
         :data="element"
         class="mb_20 width_1200_auto"
       ></not-enough>
-    </template>
+    </template> -->
   </div>
 </template>
 
@@ -132,8 +132,8 @@ export default {
   props: ["element", "select", "index", "data"],
   components: {
     ModelCarousel,
-    ModelCarousel1,
-    ModelCarousel2,
+    // ModelCarousel1,
+    // ModelCarousel2,
     Recommend,
     NewGoodsSort,
     FirstPageAdvert,
